@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and generated outputs
+*_series_matrix.txt
+*_series_matrix.txt.gz
+*.csv
+geo_platforms/
+notebooks/outputs/
