@@ -16,6 +16,8 @@ Download each **Series Matrix File** from the Gene Expression Omnibus:
 
 Expected file names: `<ACCESSION>_series_matrix.txt` (unzipped). Platform annotation files (GPL570, GPL96, GPL10558) are downloaded automatically by `GEOparse` in notebook 02.
 
+`GSE75214_X.csv` and `GSE75214_y.csv` do not need to be downloaded: notebook 01 generates them from `GSE75214_series_matrix.txt`.
+
 ## Breast cancer expression matrix
 
 Notebook 01 uses `X_data_full.csv` (1,191 samples × 56,937 genes, raw counts) and `y_data_full.csv` (Tumor / Normal labels). These files were provided as course material and are not redistributed here.
